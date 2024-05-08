@@ -34,3 +34,9 @@
     height: 10px;
     transition: all 1s ease-in-out ;
 }
+
+/* Esercizio 6 */
+.ex-6-img:hover{
+    filter: grayscale(100%);
+    transition: all 1s;
+}
