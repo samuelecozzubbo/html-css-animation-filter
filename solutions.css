@@ -108,3 +108,14 @@
         width: 500px;
     }
 }
+
+/* Esercizio 10 */
+.ex-10-icon{
+    animation: rotation 1s infinite;
+}
+
+@keyframes rotation {
+    100%{
+        rotate: 360deg;
+    }
+}
