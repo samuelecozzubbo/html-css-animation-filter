@@ -10,3 +10,7 @@
     transition: width 0.5s ease-in-out;
 }
 /* Esercizio 3 */
+.ex-3-square:hover{
+    border-radius: 50%;
+    transition: border-radius 1s ease-in-out;
+}
