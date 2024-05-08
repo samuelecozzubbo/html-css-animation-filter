@@ -81,3 +81,30 @@
         border-radius: 50%;
     }
 }
+
+/* Esercizio 9 */
+.ex-9-img{
+    filter: blur(10px) grayscale(100%);
+}
+
+.ex-9-img:hover{
+    animation: filter-border-size 8s;
+}
+
+@keyframes filter-border-size {
+    33%{
+        filter: blur(7px) grayscale(66%);
+        border-radius: 0;
+    }
+    66%{
+        filter: blur(0) grayscale(0);
+        margin: 25px 50px;
+        width: 450px;    
+    }
+    100%{
+        filter: blur(0) grayscale(0);
+        border-radius: 50%;
+        margin: 0;
+        width: 500px;
+    }
+}
