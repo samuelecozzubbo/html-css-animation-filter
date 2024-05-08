@@ -40,3 +40,21 @@
     filter: grayscale(100%);
     transition: all 1s;
 }
+
+/* Esercizio 7 */
+.ex-7-img{
+    filter: blur(10px) grayscale(100%);
+}
+
+.ex-7-img:hover{
+    animation: filter-change 4s;
+}
+
+@keyframes filter-change {
+    50%{
+        filter: blur(5px) grayscale(50%);
+    }
+    100%{
+        filter: blur(0px) grayscale(0)     
+    }
+}
