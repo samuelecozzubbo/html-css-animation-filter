@@ -20,3 +20,17 @@
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
+
+/* Esercizio 5 */
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    transition: all 1s ease-in-out;
+}
+
+.ex-5-square:active{
+    width: 10px;
+    height: 10px;
+    transition: all 1s ease-in-out ;
+}
