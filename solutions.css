@@ -119,3 +119,17 @@
         rotate: 360deg;
     }
 }
+
+/* Esercizio 11 */
+.ex-11-icon:hover{
+    animation: rotation-clockwise 3s;
+}
+
+@keyframes rotation-clockwise {
+    75%{
+        rotate: 270deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
