@@ -58,3 +58,26 @@
         filter: blur(0px) grayscale(0)     
     }
 }
+
+/* Esercizio 8 */
+.ex-8-img{
+    filter: blur(10px) grayscale(100%);
+}
+
+.ex-8-img:hover{
+    animation: filter-border 10s;
+}
+
+@keyframes filter-border {
+    33%{
+        filter: blur(7px) grayscale(66%);
+        border-radius: 0;
+    }
+    66%{
+        filter: blur(3px) grayscale(33%);    
+    }
+    100%{
+        filter: blur(0) grayscale(0);
+        border-radius: 50%;
+    }
+}
