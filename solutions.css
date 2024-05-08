@@ -14,3 +14,9 @@
     border-radius: 50%;
     transition: border-radius 1s ease-in-out;
 }
+
+/* Esercizio 4 */
+.ex-4-square:hover{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
